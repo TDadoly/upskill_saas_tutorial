@@ -17,11 +17,14 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+
+// Typography styles
 h1, h2, h3 {
   font-family: 'open-sans', sans-serif;
   
 }
 
+// Tittle Styles and Background Gradient
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
@@ -34,6 +37,7 @@ h1, h2, h3 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0685e5', endColorstr='#c0d5e5',GradientType=1 ); /* IE6-9 */
 }
 
+//Nav Styles and background gradient
 .navbar {
   border: none;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,0080e2+36,7db9e8+67,c0d5e5+100 */
@@ -43,21 +47,11 @@ h1, h2, h3 {
   background: linear-gradient(to right, #000000 0%,#0080e2 36%,#7db9e8 67%,#c0d5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#c0d5e5',GradientType=1 ); /* IE6-9 */
 }
-
-.navbar-default .navbar-brand {
-  color: white;
-}
-
-.navbar-default .navbar-brand a:hover {
-  color: white;
-  opacity: .75;
-}
-
+.navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a {
   color: white;
-}
-
-.navbar-default .navbar-nav > li > a:hover{
-  color: white;
-  opacity: .75;
+  &:hover {
+    color: white;
+    opacity: .75;
+  }
 }
