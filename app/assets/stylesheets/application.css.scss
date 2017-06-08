@@ -50,6 +50,12 @@ h1, h2, h3 {
   background: linear-gradient(to right, #000000 0%,#0080e2 36%,#7db9e8 67%,#c0d5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#c0d5e5',GradientType=1 ); /* IE6-9 */
 }
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a {
   color: white;
