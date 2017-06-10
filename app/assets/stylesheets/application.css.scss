@@ -61,6 +61,21 @@ h1, h2, h3 {
   color: white;
   &:hover {
     color: white;
+    opacity: .90;
+  }
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+  &:hover, &:focus {
+    background-color: #a7cae6;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+  &:hover {
+    background-color: white;
     opacity: .75;
   }
 }
