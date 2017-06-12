@@ -1,5 +1,4 @@
-class ContactsCoantroller < AppliacationController
-    def new
-    end
-
+class ContactsController < ApplicationController
+  def new
+  end
 end
